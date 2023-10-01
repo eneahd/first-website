@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Sora:wght@600&display=swap');
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    background-color: #96ceb4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+a {
+    color: #ffeead;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+main {
+    padding: 1rem;
+    font-family: 'Mandali', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 1rem;
+    font-family: 'Sora', sans-serif;
+}
